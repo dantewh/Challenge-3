@@ -52,6 +52,8 @@ function addMarkersToMap(map) {
     
 }
 
+window.addEventListener('resize', () => map.getViewPort().resize());
+
 window.onload = function () {
   addMarkersToMap(map);
 }      
