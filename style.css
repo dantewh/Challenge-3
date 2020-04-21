@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+    
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Lato';
+    background: linear-gradient(45deg, #2ecc71, #16a085);
+    font-size: 30px;
+    
+    
+}
+
+.header {
+    grid-area: header;
+    width: 99%;
+    border: 1px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    
+}
+
+.main {
+    grid-area: main;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+	}
+
+h1{
+    padding: 10px;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+#windkmh{
+    margin: 24.9px
+}
+
+
+.wrapper {
+    margin: auto;
+    display: grid;
+
+    grid-template-areas:
+     "header"
+     "main";
+     
+}
+
+
+
+@media (min-width: 576px) { 
+   
+}
+
+@media (min-width: 767px) {
+   
+}
+
+@media (min-width: 992px) {
+    
+    
+}
+
+@media (min-width: 1200px) {
+   
+}
