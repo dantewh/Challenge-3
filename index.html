@@ -5,6 +5,9 @@
 		<title>SPACE X LANDINGSDASHBOARD</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="main.js" defer></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+		
 
 	</head>
 	<body>
@@ -14,19 +17,21 @@
             </div>
             
             <div class="box main">
-                <div id="map"></div>
-                <h2> Windsnelheid</h2>
-                <div id="windkmh"></div>
-                <h2>km/u</h2>
-                <div id="windr">test</div>
+               <article id=article1>
+                    <div id="map"></div>
+                    <h2> Windsnelheid</h2>
+                    <div id="windkmh"></div>
+                    <h2>km/u vanuit</h2>
+                    <div id="windr">test</div>
+                </article>
+                <article>
+                    <div id="mapContainer"></div>
+                </article>
             </div>
             
-            <div class="images">
-                <span id="zonnig "class="icons">
-                <img src="iconen-weerlive/zonnig.png" alt="zonnig"></span> 
-                
-            </div>
-            <div id="temp"></div>
+
+             
+            
         </div>
 	</body>
 </html>

@@ -63,8 +63,15 @@ h2{
      "main";
      
 }
-
-
+#article1{
+    width: 100%;
+    text-align: center;
+}
+#mapContainer{
+    width: 640px; 
+    height: 480px
+    
+}
 
 @media (min-width: 576px) { 
    
