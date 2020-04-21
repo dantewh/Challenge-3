@@ -26,7 +26,7 @@ var platform = new H.service.Platform({
 
 var defaultLayers = platform.createDefaultLayers();
 
-// Instantiate (and display) a map object:
+
 var map = new H.Map(
     document.getElementById('mapContainer'),
     defaultLayers.vector.normal.map,
